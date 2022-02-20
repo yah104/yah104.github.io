@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    grid-auto-rows: 300px;
+    margin-bottom: 50px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    display: flex;  
+    justify-content: center;
+}
