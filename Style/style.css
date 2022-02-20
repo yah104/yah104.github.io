@@ -62,3 +62,7 @@ make the two columns stack on top of each other instead of next to each other */
 li, p {
     line-height: 1.5;
 }
+
+p::first-letter {
+    font-size: x-large;
+}
